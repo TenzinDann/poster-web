@@ -3,6 +3,7 @@ title: "v1.0 — Initial Release"
 date: 2026-01-15
 summary: "The first stable release of our platform, featuring the page builder, block system, and Tailwind 4 integration."
 version: "1.0.0"
+draft: true
 ---
 
 ## What's New

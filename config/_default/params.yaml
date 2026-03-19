@@ -13,28 +13,27 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Company Name"
+    name: "Danzeng Cairang"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
-    type: organization                        # person | organization | local_business
+    type: person                              # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "The framework for Hugo."
+    tagline: |-
+      Sociologist, Anthropologist,
+      AI Engineer
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
+    description: "Danzeng Cairang's capstone showcase site."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "MakeOwnable"              # Twitter/X handle for Twitter Cards (without @)
       # Site-wide social links (rendered in footer, etc.)
       links:
-        - icon: brands/x
-          url: https://x.com/MakeOwnable
+        - icon: at-symbol
+          url: mailto:cdanzeng@ucsd.edu
         - icon: brands/github
-          url: https://github.com/HugoBlox/kit
-        - icon: brands/discord
-          url: https://discord.gg/z8wNYzb
+          url: https://github.com/TenzinDann
         - icon: brands/linkedin
-          url: https://linkedin.com/company/example
+          url: https://www.linkedin.com/in/fnu-danzengcairang/
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME

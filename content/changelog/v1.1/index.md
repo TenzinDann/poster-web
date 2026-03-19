@@ -3,6 +3,7 @@ title: "v1.1 — Footer & Icon Improvements"
 date: 2026-02-18
 summary: "Multi-column footer with social icons, improved icon rendering, and changelog section."
 version: "1.1.0"
+draft: true
 ---
 
 ## What's New
