@@ -7,7 +7,7 @@ name:
   family: ''
   alternate: 'Tenzin'
   pronunciation: ''
-  pronouns: Tenzin
+  pronouns: ''
 postnominals:
   - ''
   - ''
@@ -32,90 +32,3 @@ links:
     url: https://www.linkedin.com/in/fnu-danzengcairang/
   #- icon: academicons/google-scholar
     #url: https://scholar.google.com/citations?user=example
-
-interests:
-  - Machine Learning 
-  - Data Analysis
-  - Reinforcement Learning
-  - Neuroscience
-  - Computer Hardware
-  - Minority Culture
-  - Linguistics
-  - Acoustics
-
-education:
-  - degree: Master of Computational Social Science
-    institution: University of California, San Diego
-    start: 2025-07-01
-    end: 2026-06-12
-    #summary: |
-      #Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    #button:
-      #text: Download dissertation
-      #url: /resume.pdf
-      #icon: hero/arrow-down-tray
-  - degree: Bachelor of Sociology
-    institution: Southwest Minzu University
-    start: 2018-09-01
-    end: 2022-06-27
-
-experience:
-  - role: Editorial Board Member
-    org: Southwest Minzu University
-    start: 2023-10-08
-    end: 2025-05-01
-    summary: |
-      Editorial Member of Southwest Minzu University's Tibetan, Qiang, and Yi Culture Research Institute Project - “Dictionary of Common Words in Chinese, Tibetan, Qiang, and Yi”
-  - role: Research Assistant
-    org: Southwest Minzu University
-    start: 2022-07-21
-    end: 2024-12-31
-    summary: |
-      Member of National Social Science Fund Project, Project “Reference Grammar Study of the Muya Dialect of the Kham Variant in Tibetan Language”
-  - role: Research Assistant
-    org: Southwest Minzu University
-    start: 2021-12-05
-    end: 2023-12-01
-    summary: |
-      Member of Tibetan-Qiang-Yi Cultural Research Institute of Southwest Minzu University, Project “Study of the Kham Dialect in Tibetan Language”
-  - role: Research Fellow
-    org: Southwest Minzu University
-    start: 2020-02-07
-    end: 2021-10-22
-    summary: |
-      Secondary Writer of the National Social Sciences General Cultivation Project. “Investigation on the Kham Dialect of the Tibetan Language”
-
-skills:
-  - name: Technical Skills
-    items:
-      - label: Data Analysis
-        level: 3
-      - label: Machine Learning
-        level: 5
-      - label: Reinforcement Learning
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Field Research Experiences
-        level: 5
-      - label: Cross-cultural Studies
-        level: 5
-
-languages:
-  - name: Chinese
-    level: 5
-  - name: Tibetan
-    level: 5
-  - name: English
-    level: 4
-  - name: Japanese
-    level: 4
-
-awards:
-  - title: Best Paper Award
-    awarder: New Silk Road 
-    date: "2021-07-01"
-    Summary: Awarded for outstanding publication of young scholars.
-    icon: hero/trophy
