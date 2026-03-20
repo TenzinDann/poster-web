@@ -1,0 +1,155 @@
+:root {
+  --bg: #020615;
+  --grid: rgba(255, 255, 255, 0.012);
+  --text: #e8edf7;
+  --muted: #a2aec2;
+  --card: #8db9ea;
+  --button-bg: #131f3b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  color: var(--text);
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+}
+
+.page-bg {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    radial-gradient(34rem 24rem at -8% 50%, rgba(59, 130, 246, 0.26), transparent 72%),
+    radial-gradient(30rem 22rem at 108% 56%, rgba(6, 182, 212, 0.22), transparent 75%),
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: auto, auto, 64px 64px, 64px 64px;
+}
+
+.site-header {
+  height: 84px;
+  padding: 0 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #081633;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.brand {
+  color: var(--text);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.brand img {
+  width: auto;
+  height: 1em;
+  display: block;
+}
+
+.site-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.site-nav a {
+  color: #e5ebf8;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  opacity: 0.95;
+}
+
+main {
+  width: min(1280px, 96vw);
+  margin: 0 auto;
+}
+
+.hero-card {
+  margin: 28px auto 0;
+  width: min(1220px, 94vw);
+  min-height: 520px;
+  border-radius: 0 0 30px 30px;
+  background: var(--card);
+  color: #f3f8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 22px;
+}
+
+.hero-card h1 {
+  margin: 0;
+  font-size: clamp(3rem, 7vw, 6.8rem);
+  letter-spacing: 0.02em;
+  line-height: 0.95;
+}
+
+.hero-card p {
+  margin: 0;
+  color: #24334d;
+  font-size: clamp(1.2rem, 2vw, 2.9rem);
+}
+
+.hero-card button {
+  margin-top: 10px;
+  border: 0;
+  border-radius: 22px;
+  background: var(--button-bg);
+  color: #eef2ff;
+  padding: 18px 46px;
+  font-size: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.footer-logo-wrap {
+  min-height: 42vh;
+  display: grid;
+  place-items: end center;
+  padding-bottom: 58px;
+}
+
+.footer-logo-wrap img {
+  width: 64px;
+  height: auto;
+  display: block;
+  opacity: 0.98;
+}
+
+@media (max-width: 1024px) {
+  .site-header {
+    height: auto;
+    padding: 16px;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .brand {
+    font-size: 1.6rem;
+  }
+
+  .hero-card {
+    min-height: 420px;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .hero-card button {
+    font-size: 1.4rem;
+  }
+}
