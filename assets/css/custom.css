@@ -1,0 +1,13 @@
+/* Header brand logo only: same behavior as tenzindann.github.io */
+.page-header .navbar-brand {
+  display: inline-flex;
+  align-items: center;
+}
+
+.page-header .navbar-brand > svg,
+.page-header .navbar-brand > img {
+  display: block;
+  height: 1.55em !important;
+  width: auto !important;
+  max-height: none !important;
+}
