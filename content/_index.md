@@ -22,7 +22,7 @@ sections:
       announcement:
         text: "" #Announcing the release of version 1.
         link:
-          text: "" #Read more
+          text: ""
           url: "/blog/"
     design:
       spacing:
